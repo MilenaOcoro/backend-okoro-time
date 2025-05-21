@@ -123,7 +123,6 @@ La API implementa autenticación basada en JWT con los siguientes aspectos de se
 
 - Tokens JWT con expiración configurable
 - Protección de rutas según roles (ADMIN / USER)
-- Encriptación de contraseñas con BCrypt
 - Validación de entradas con anotaciones Bean Validation
 - Manejo global de excepciones y respuestas HTTP adecuadas
  
@@ -143,8 +142,5 @@ El endpoint de resumen proporciona estadísticas avanzadas sobre las horas traba
 
 Este backend está diseñado para trabajar con la aplicación frontend React de Okoro Time, que puedes encontrar en [Repositorio Frontend](https://github.com/MilenaOcoro/frontend-okoro-time).
 
-## 📝 Licencia
-
-Este proyecto está licenciado bajo [MIT License](LICENSE).
 
 Copyright © 2025 Milena Okoro
